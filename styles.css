@@ -4,15 +4,74 @@ body {
 	font-size: 16px;
 }
 
+header {
+	background-color: #C0C0C0   ;
+	color: #FFFFFF;
+	padding: 10px;
+	margin-left:20px;
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+
+ul {
+	list-style-type: square;
+}
+
+section {
+	display: inline-block;
+	width: 70%;
+}
+
+div {
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
 h1 {
     font-size: 250%;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left:20px;
+    border-style: dotted;
+    border-width: 4px;
+    letter-spacing: 0.0625em
 }
 
 h2 {
     font-size: 200%;
+    letter-spacing: 0.0625em
 }
 
 p {
     font-size: 100%;
+    padding: 20px;
 }
+
+.italic {
+	font-style: italic;
+}
+
+h1:hover, h2:hover {
+    color: red;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+text-decoration: underline;
+height: 40px
+}
+
+tr:nth-child(even) {background: #CCC}
+
+td {
+    height: 40px;
+    padding-left: 10px
+}
+
+
